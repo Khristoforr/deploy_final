@@ -1,0 +1,260 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html style="font-size: 16px;">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="page_type" content="np-template-header-footer-from-plugin">
+    <title>Страница игрока {{player.rus_last_name}}</title>
+    <link rel="stylesheet" href="{% static 'basket/css/nicepage.css' %}" media="screen">
+<link rel="stylesheet" href="{% static 'basket/css/Страница-игрока.css' %}" media="screen">
+    <script class="u-script" type="text/javascript" src="{% static 'basket/js/jquery.js' %}" defer=""></script>
+    <script class="u-script" type="text/javascript" src="{% static 'basket/js/nicepage.js' %}" defer=""></script>
+    <meta name="generator" content="Nicepage 4.0.3, nicepage.com">
+    <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i">
+    <link id="u-page-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700|Lobster:400">
+    
+    
+    
+    <script type="application/ld+json">{
+		"@context": "http://schema.org",
+		"@type": "Organization",
+		"name": ""
+}</script>
+    <meta name="theme-color" content="#478ac9">
+    <meta property="og:title" content="Страница игрока">
+    <meta property="og:type" content="website">
+  </head>
+  <body class="u-body"><header class="u-black u-border-2 u-border-palette-4-dark-1 u-clearfix u-header u-sticky u-sticky-256e u-header" id="sec-1fe2"><div class="u-clearfix u-sheet u-sheet-1">
+        <nav class="u-menu u-menu-dropdown u-offcanvas u-menu-1">
+          <div class="menu-collapse u-custom-font u-font-lobster" style="font-size: 1.875rem; letter-spacing: 0px;">
+            <a class="u-button-style u-custom-color u-custom-left-right-menu-spacing u-custom-padding-bottom u-custom-text-active-color u-custom-text-color u-custom-text-hover-color u-custom-top-bottom-menu-spacing u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="#">
+              <svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#menu-hamburger"></use></svg>
+              <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><symbol id="menu-hamburger" viewBox="0 0 16 16" style="width: 16px; height: 16px;"><rect y="1" width="16" height="2"></rect><rect y="7" width="16" height="2"></rect><rect y="13" width="16" height="2"></rect>
+</symbol>
+</defs></svg>
+            </a>
+          </div>
+          <div class="u-custom-menu u-nav-container">
+            <ul class="u-custom-font u-font-lobster u-nav u-unstyled u-nav-1"><li class="u-nav-item"><a class="u-black u-button-style u-nav-link u-text-active-palette-2-base u-text-hover-palette-4-light-1 u-text-palette-2-base" href="/home" style="padding: 14px 20px;">Главная</a>
+</li><li class="u-nav-item"><a class="u-black u-button-style u-nav-link u-text-active-palette-2-base u-text-hover-palette-4-light-1 u-text-palette-2-base" href="/statistika" style="padding: 14px 20px;">Статистика</a>
+</li></ul>
+          </div>
+          <div class="u-custom-menu u-nav-container-collapse">
+            <div class="u-black u-container-style u-inner-container-layout u-opacity u-opacity-95 u-sidenav">
+              <div class="u-inner-container-layout u-sidenav-overflow">
+                <div class="u-menu-close"></div>
+                <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-2"><li class="u-nav-item"><a class="u-button-style u-nav-link" href="/home" style="padding: 14px 20px;">Главная</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="/statistika" style="padding: 14px 20px;">Статистика</a>
+</li></ul>
+              </div>
+            </div>
+            <div class="u-black u-menu-overlay u-opacity u-opacity-70"></div>
+          </div>
+        </nav>
+        <div class="u-image u-image-circle u-image-1" alt="" data-image-width="400" data-image-height="265"></div>
+      </div></header>
+    <section class="u-clearfix u-gradient u-section-1" id="sec-b7f2">
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <p class="u-align-left u-custom-font u-font-oswald u-text u-text-white u-text-1">{{player.rus_last_name}}</p>
+        <p class="u-align-left u-custom-font u-font-oswald u-text u-text-white u-text-2">{{player.rus_first_name}}</p>
+        <p class="u-custom-font u-font-oswald u-text u-text-palette-4-light-1 u-text-3">{{player.position}}</p>
+        <p class="u-custom-font u-font-oswald u-text u-text-palette-4-light-1 u-text-4">{{player.age}}лет</p>
+        <p class="u-custom-font u-font-oswald u-text u-text-palette-4-light-1 u-text-5">{{player.weight}}</p>
+        <p class="u-custom-font u-font-oswald u-text u-text-palette-4-light-1 u-text-6">{{player.height}}</p>
+        <p class="u-custom-font u-font-oswald u-text u-text-palette-4-light-1 u-text-7">кг</p>
+        <p class="u-custom-font u-font-oswald u-text u-text-palette-4-light-1 u-text-8">см</p>
+        <p class="u-align-left u-custom-font u-font-oswald u-text u-text-palette-3-base u-text-9">{{stat.pts}}</p>
+        <p class="u-custom-font u-font-oswald u-text u-text-white u-text-10">Очки</p>
+        <p class="u-custom-font u-font-oswald u-text u-text-white u-text-11">Подборы</p>
+        <p class="u-align-left u-custom-font u-font-oswald u-text u-text-palette-3-base u-text-12">{{stat.reb}}</p>
+        <p class="u-custom-font u-font-oswald u-text u-text-white u-text-13">Ассисты</p>
+        <p class="u-align-left u-custom-font u-font-oswald u-text u-text-palette-3-base u-text-14">{{stat.ast}}</p>
+        <img class="u-image u-image-circle u-image-1" src="{{player.photo.url}}" alt="" data-image-width="400" data-image-height="265"></img>
+        <ul class="u-align-left u-custom-font u-font-oswald u-indent-0 u-spacing-0 u-text u-text-palette-3-base u-text-15">
+          <li>Чемпион 2021</li>
+          <li>Sample Item 2</li>
+          <li>Sample Item 3</li>
+        </ul>
+      </div>
+    </section>
+    <section class="u-clearfix u-gradient u-section-2" id="sec-be46">
+      <div class="u-clearfix u-sheet u-valign-top u-sheet-1">
+        <div class="u-table u-table-responsive u-table-1">
+          <table class="u-table-entity">
+            <colgroup>
+              <col width="100%">
+            </colgroup>
+            <thead class="u-palette-3-base u-table-header u-table-header-1">
+              <tr style="height: 40px;">
+                <th class="u-border-5 u-border-black u-border-no-left u-border-no-right u-table-cell">игра</th>
+                <th class="u-border-5 u-border-black u-border-no-left u-border-no-right u-table-cell">Очки</th>
+                <th class="u-border-5 u-border-black u-border-no-left u-border-no-right u-table-cell">АСТ</th>
+                <th class="u-border-5 u-border-black u-border-no-left u-border-no-right u-table-cell">Прхв</th>
+                <th class="u-border-5 u-border-black u-border-no-left u-border-no-right u-table-cell">Блк</th>
+                <th class="u-border-5 u-border-black u-border-no-left u-border-no-right u-table-cell">Потери</th>
+                  <th class="u-border-5 u-border-black u-border-no-left u-border-no-right u-table-cell">2FGM</th>
+                <th class="u-border-5 u-border-black u-border-no-left u-border-no-right u-table-cell">2FGA</th>
+                <th class="u-border-5 u-border-black u-border-no-left u-border-no-right u-table-cell">2%</th>
+                <th class="u-border-5 u-border-black u-border-no-left u-border-no-right u-table-cell">3FGM</th>
+                <th class="u-border-5 u-border-black u-border-no-left u-border-no-right u-table-cell">3FGA</th>
+                <th class="u-border-5 u-border-black u-border-no-left u-border-no-right u-table-cell">3%</th>
+                  <th class="u-border-5 u-border-black u-border-no-left u-border-no-right u-table-cell">FG</th>
+                <th class="u-border-5 u-border-black u-border-no-left u-border-no-right u-table-cell">FGM</th>
+                <th class="u-border-5 u-border-black u-border-no-left u-border-no-right u-table-cell">FGA</th>
+                <th class="u-border-5 u-border-black u-border-no-left u-border-no-right u-table-cell">FTA</th>
+                <th class="u-border-5 u-border-black u-border-no-left u-border-no-right u-table-cell">FTM</th>
+                  <th class="u-border-5 u-border-black u-border-no-left u-border-no-right u-table-cell">Штр%</th>
+                <th class="u-border-5 u-border-black u-border-no-left u-border-no-right u-table-cell">ПДБ</th>
+                <th class="u-border-5 u-border-black u-border-no-left u-border-no-right u-table-cell">ПДБа</th>
+                <th class="u-border-5 u-border-black u-border-no-left u-border-no-right u-table-cell">ПДБз</th>
+                <th class="u-border-5 u-border-black u-border-no-left u-border-no-right u-table-cell">ЭФФ</th>
+                  <th class="u-border-5 u-border-black u-border-no-left u-border-no-right u-table-cell">+\-</th>
+
+              </tr>
+            </thead>
+            <tbody class="u-align-center u-table-body u-table-body-1">
+              <tr style="height: 46px;">
+                <td class="u-border-4 u-border-palette-4-light-1 u-table-cell">1</td>
+                <td class="u-border-4 u-border-palette-4-light-1 u-table-cell">{{ game1_stat.pts }}</td>
+                <td class="u-border-4 u-border-palette-4-light-1 u-table-cell">{{ game1_stat.ast }}</td>
+                <td class="u-border-4 u-border-palette-4-light-1 u-table-cell">{{ game1_stat.stl }}</td>
+                <td class="u-border-4 u-border-palette-4-light-1 u-table-cell">{{ game1_stat.blk }}</td>
+                <td class="u-border-4 u-border-palette-4-light-1 u-table-cell">{{ game1_stat.tov }}</td>
+                <td class="u-border-4 u-border-palette-4-light-1 u-table-cell">{{ game1_stat.fgm2 }}</td>
+                <td class="u-border-4 u-border-palette-4-light-1 u-table-cell">{{ game1_stat.fga2 }}</td>
+                <td class="u-border-4 u-border-palette-4-light-1 u-table-cell">{{ game1_stat.fg2 }}</td>
+                <td class="u-border-4 u-border-palette-4-light-1 u-table-cell">{{ game1_stat.fgm3 }}</td>
+                <td class="u-border-4 u-border-palette-4-light-1 u-table-cell">{{ game1_stat.fga3 }}</td>
+                <td class="u-border-4 u-border-palette-4-light-1 u-table-cell">{{ game1_stat.fg3 }}</td>
+                <td class="u-border-4 u-border-palette-4-light-1 u-table-cell">{{ game1_stat.fg }}</td>
+                <td class="u-border-4 u-border-palette-4-light-1 u-table-cell">{{ game1_stat.fgm }}</td>
+                <td class="u-border-4 u-border-palette-4-light-1 u-table-cell">{{ game1_stat.fga }}</td>
+                <td class="u-border-4 u-border-palette-4-light-1 u-table-cell">{{ game1_stat.fta }}</td>
+                <td class="u-border-4 u-border-palette-4-light-1 u-table-cell">{{ game1_stat.ftm }}</td>
+                <td class="u-border-4 u-border-palette-4-light-1 u-table-cell">{{ game1_stat.ft }}</td>
+                <td class="u-border-4 u-border-palette-4-light-1 u-table-cell">{{ game1_stat.reb }}</td>
+                <td class="u-border-4 u-border-palette-4-light-1 u-table-cell">{{ game1_stat.oreb }}</td>
+                <td class="u-border-4 u-border-palette-4-light-1 u-table-cell">{{ game1_stat.dreb }}</td>
+                <td class="u-border-4 u-border-palette-4-light-1 u-table-cell">{{ game1_stat.eff }}</td>
+                <td class="u-border-4 u-border-palette-4-light-1 u-table-cell">{{ game1_stat.plus_minus }}</td>
+              </tr>
+              <tr style="height: 46px;">
+                <td class="u-border-4 u-border-palette-4-light-1 u-table-cell">2</td>
+                                <td class="u-border-4 u-border-palette-4-light-1 u-table-cell">{{ game2_stat.pts }}</td>
+                <td class="u-border-4 u-border-palette-4-light-1 u-table-cell">{{ game2_stat.ast }}</td>
+                <td class="u-border-4 u-border-palette-4-light-1 u-table-cell">{{ game2_stat.stl }}</td>
+                <td class="u-border-4 u-border-palette-4-light-1 u-table-cell">{{ game2_stat.blk }}</td>
+                <td class="u-border-4 u-border-palette-4-light-1 u-table-cell">{{ game2_stat.tov }}</td>
+                <td class="u-border-4 u-border-palette-4-light-1 u-table-cell">{{ game2_stat.fgm2 }}</td>
+                <td class="u-border-4 u-border-palette-4-light-1 u-table-cell">{{ game2_stat.fga2 }}</td>
+                <td class="u-border-4 u-border-palette-4-light-1 u-table-cell">{{ game2_stat.fg2 }}</td>
+                <td class="u-border-4 u-border-palette-4-light-1 u-table-cell">{{ game2_stat.fgm3 }}</td>
+                <td class="u-border-4 u-border-palette-4-light-1 u-table-cell">{{ game2_stat.fga3 }}</td>
+                <td class="u-border-4 u-border-palette-4-light-1 u-table-cell">{{ game2_stat.fg3 }}</td>
+                <td class="u-border-4 u-border-palette-4-light-1 u-table-cell">{{ game2_stat.fg }}</td>
+                <td class="u-border-4 u-border-palette-4-light-1 u-table-cell">{{ game2_stat.fgm }}</td>
+                <td class="u-border-4 u-border-palette-4-light-1 u-table-cell">{{ game2_stat.fga }}</td>
+                <td class="u-border-4 u-border-palette-4-light-1 u-table-cell">{{ game2_stat.fta }}</td>
+                <td class="u-border-4 u-border-palette-4-light-1 u-table-cell">{{ game2_stat.ftm }}</td>
+                <td class="u-border-4 u-border-palette-4-light-1 u-table-cell">{{ game2_stat.ft }}</td>
+                <td class="u-border-4 u-border-palette-4-light-1 u-table-cell">{{ game2_stat.reb }}</td>
+                <td class="u-border-4 u-border-palette-4-light-1 u-table-cell">{{ game2_stat.oreb }}</td>
+                <td class="u-border-4 u-border-palette-4-light-1 u-table-cell">{{ game2_stat.dreb }}</td>
+                <td class="u-border-4 u-border-palette-4-light-1 u-table-cell">{{ game2_stat.eff }}</td>
+                <td class="u-border-4 u-border-palette-4-light-1 u-table-cell">{{ game2_stat.plus_minus }}</td>
+              </tr>
+              <tr style="height: 46px;">
+                <td class="u-border-4 u-border-palette-4-light-1 u-table-cell">3</td>
+                                <td class="u-border-4 u-border-palette-4-light-1 u-table-cell">{{ game3_stat.pts }}</td>
+                <td class="u-border-4 u-border-palette-4-light-1 u-table-cell">{{ game3_stat.ast }}</td>
+                <td class="u-border-4 u-border-palette-4-light-1 u-table-cell">{{ game3_stat.stl }}</td>
+                <td class="u-border-4 u-border-palette-4-light-1 u-table-cell">{{ game3_stat.blk }}</td>
+                <td class="u-border-4 u-border-palette-4-light-1 u-table-cell">{{ game3_stat.tov }}</td>
+                <td class="u-border-4 u-border-palette-4-light-1 u-table-cell">{{ game3_stat.fgm2 }}</td>
+                <td class="u-border-4 u-border-palette-4-light-1 u-table-cell">{{ game3_stat.fga2 }}</td>
+                <td class="u-border-4 u-border-palette-4-light-1 u-table-cell">{{ game3_stat.fg2 }}</td>
+                <td class="u-border-4 u-border-palette-4-light-1 u-table-cell">{{ game3_stat.fgm3 }}</td>
+                <td class="u-border-4 u-border-palette-4-light-1 u-table-cell">{{ game3_stat.fga3 }}</td>
+                <td class="u-border-4 u-border-palette-4-light-1 u-table-cell">{{ game3_stat.fg3 }}</td>
+                <td class="u-border-4 u-border-palette-4-light-1 u-table-cell">{{ game3_stat.fg }}</td>
+                <td class="u-border-4 u-border-palette-4-light-1 u-table-cell">{{ game3_stat.fgm }}</td>
+                <td class="u-border-4 u-border-palette-4-light-1 u-table-cell">{{ game3_stat.fga }}</td>
+                <td class="u-border-4 u-border-palette-4-light-1 u-table-cell">{{ game3_stat.fta }}</td>
+                <td class="u-border-4 u-border-palette-4-light-1 u-table-cell">{{ game3_stat.ftm }}</td>
+                <td class="u-border-4 u-border-palette-4-light-1 u-table-cell">{{ game3_stat.ft }}</td>
+                <td class="u-border-4 u-border-palette-4-light-1 u-table-cell">{{ game3_stat.reb }}</td>
+                <td class="u-border-4 u-border-palette-4-light-1 u-table-cell">{{ game3_stat.oreb }}</td>
+                <td class="u-border-4 u-border-palette-4-light-1 u-table-cell">{{ game3_stat.dreb }}</td>
+                <td class="u-border-4 u-border-palette-4-light-1 u-table-cell">{{ game3_stat.eff }}</td>
+                <td class="u-border-4 u-border-palette-4-light-1 u-table-cell">{{ game3_stat.plus_minus }}</td>
+              </tr>
+                          <tr style="height: 46px;">
+                <td class="u-border-4 u-border-palette-4-light-1 u-table-cell">4</td>
+                            <td class="u-border-4 u-border-palette-4-light-1 u-table-cell">{{ game4_stat.pts }}</td>
+                            <td class="u-border-4 u-border-palette-4-light-1 u-table-cell">{{ game4_stat.ast }}</td>
+                <td class="u-border-4 u-border-palette-4-light-1 u-table-cell">{{ game4_stat.stl }}</td>
+                <td class="u-border-4 u-border-palette-4-light-1 u-table-cell">{{ game4_stat.blk }}</td>
+                <td class="u-border-4 u-border-palette-4-light-1 u-table-cell">{{ game4_stat.tov }}</td>
+                <td class="u-border-4 u-border-palette-4-light-1 u-table-cell">{{ game4_stat.fgm2 }}</td>
+                <td class="u-border-4 u-border-palette-4-light-1 u-table-cell">{{ game4_stat.fga2 }}</td>
+                <td class="u-border-4 u-border-palette-4-light-1 u-table-cell">{{ game4_stat.fg2 }}</td>
+                <td class="u-border-4 u-border-palette-4-light-1 u-table-cell">{{ game4_stat.fgm3 }}</td>
+                <td class="u-border-4 u-border-palette-4-light-1 u-table-cell">{{ game4_stat.fga3 }}</td>
+                <td class="u-border-4 u-border-palette-4-light-1 u-table-cell">{{ game4_stat.fg3 }}</td>
+                <td class="u-border-4 u-border-palette-4-light-1 u-table-cell">{{ game4_stat.fg }}</td>
+                <td class="u-border-4 u-border-palette-4-light-1 u-table-cell">{{ game4_stat.fgm }}</td>
+                <td class="u-border-4 u-border-palette-4-light-1 u-table-cell">{{ game4_stat.fga }}</td>
+                <td class="u-border-4 u-border-palette-4-light-1 u-table-cell">{{ game4_stat.fta }}</td>
+                <td class="u-border-4 u-border-palette-4-light-1 u-table-cell">{{ game4_stat.ftm }}</td>
+                <td class="u-border-4 u-border-palette-4-light-1 u-table-cell">{{ game4_stat.ft }}</td>
+                <td class="u-border-4 u-border-palette-4-light-1 u-table-cell">{{ game4_stat.reb }}</td>
+                <td class="u-border-4 u-border-palette-4-light-1 u-table-cell">{{ game4_stat.oreb }}</td>
+                <td class="u-border-4 u-border-palette-4-light-1 u-table-cell">{{ game4_stat.dreb }}</td>
+                <td class="u-border-4 u-border-palette-4-light-1 u-table-cell">{{ game4_stat.eff }}</td>
+                <td class="u-border-4 u-border-palette-4-light-1 u-table-cell">{{ game4_stat.plus_minus }}</td>
+              </tr>
+                          <tr style="height: 46px;">
+                <td class="u-border-4 u-border-palette-4-light-1 u-table-cell">Avg</td>
+                                <td class="u-border-4 u-border-palette-4-light-1 u-table-cell">{{ avg_stat.pts }}</td>
+                <td class="u-border-4 u-border-palette-4-light-1 u-table-cell">{{ avg_stat.ast }}</td>
+                <td class="u-border-4 u-border-palette-4-light-1 u-table-cell">{{ avg_stat.stl }}</td>
+                <td class="u-border-4 u-border-palette-4-light-1 u-table-cell">{{ avg_stat.blk }}</td>
+                <td class="u-border-4 u-border-palette-4-light-1 u-table-cell">{{ avg_stat.tov }}</td>
+                <td class="u-border-4 u-border-palette-4-light-1 u-table-cell">{{ avg_stat.fgm2 }}</td>
+                <td class="u-border-4 u-border-palette-4-light-1 u-table-cell">{{ avg_stat.fga2 }}</td>
+                <td class="u-border-4 u-border-palette-4-light-1 u-table-cell">{{ avg_stat.fg2 }}</td>
+                <td class="u-border-4 u-border-palette-4-light-1 u-table-cell">{{ avg_stat.fgm3 }}</td>
+                <td class="u-border-4 u-border-palette-4-light-1 u-table-cell">{{ avg_stat.fga3 }}</td>
+                <td class="u-border-4 u-border-palette-4-light-1 u-table-cell">{{ avg_stat.fg3 }}</td>
+                <td class="u-border-4 u-border-palette-4-light-1 u-table-cell">{{ avg_stat.fg }}</td>
+                <td class="u-border-4 u-border-palette-4-light-1 u-table-cell">{{ avg_stat.fgm }}</td>
+                <td class="u-border-4 u-border-palette-4-light-1 u-table-cell">{{ avg_stat.fga }}</td>
+                <td class="u-border-4 u-border-palette-4-light-1 u-table-cell">{{ avg_stat.fta }}</td>
+                <td class="u-border-4 u-border-palette-4-light-1 u-table-cell">{{ avg_stat.ftm }}</td>
+                <td class="u-border-4 u-border-palette-4-light-1 u-table-cell">{{ avg_stat.ft }}</td>
+                <td class="u-border-4 u-border-palette-4-light-1 u-table-cell">{{ avg_stat.reb }}</td>
+                <td class="u-border-4 u-border-palette-4-light-1 u-table-cell">{{ avg_stat.oreb }}</td>
+                <td class="u-border-4 u-border-palette-4-light-1 u-table-cell">{{ avg_stat.dreb }}</td>
+                <td class="u-border-4 u-border-palette-4-light-1 u-table-cell">{{ avg_stat.eff }}</td>
+                <td class="u-border-4 u-border-palette-4-light-1 u-table-cell">{{ avg_stat.plus_minus }}</td>
+              </tr>
+            <tr style="height: 46px;">
+                <td class="u-border-4 u-border-palette-4-light-1 u-table-cell">Место В лиге</td>
+              {% for stat in rating %}
+              <td class="u-border-4 u-border-palette-4-light-1 u-table-cell">{{stat}}</td>
+              {% endfor %}
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+    
+    
+
+  </body>
+</html>

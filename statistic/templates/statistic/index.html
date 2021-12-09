@@ -1,0 +1,194 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html style="font-size: 16px;">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="page_type" content="np-template-header-footer-from-plugin">
+    <title>Главная</title>
+    <link rel="stylesheet" href="{% static 'basket/css/nicepage.css' %}" media="screen">
+<link rel="stylesheet" href="{% static 'basket/css/Главная.css' %}" media="screen">
+    <script class="u-script" type="text/javascript" src="{% static 'basket/js/jquery.js' %}" defer=""></script>
+    <script class="u-script" type="text/javascript" src="{% static 'basket/js/nicepage.js' %}" defer=""></script>
+    <meta name="generator" content="Nicepage 4.0.3, nicepage.com">
+    <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i">
+    <link id="u-page-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700|Lobster:400">
+    
+    
+    
+    <script type="application/ld+json">{
+		"@context": "http://schema.org",
+		"@type": "Organization",
+		"name": ""
+}</script>
+    <meta name="theme-color" content="#478ac9">
+    <meta property="og:title" content="Главная">
+    <meta property="og:type" content="website">
+  </head>
+  <body data-home-page="Главная.html" data-home-page-title="Главная" class="u-body"><header class="u-black u-border-2 u-border-palette-4-dark-1 u-clearfix u-header u-sticky u-sticky-256e u-header" id="sec-1fe2"><div class="u-clearfix u-sheet u-sheet-1">
+        <nav class="u-menu u-menu-dropdown u-offcanvas u-menu-1">
+          <div class="menu-collapse u-custom-font u-font-lobster" style="font-size: 1.875rem; letter-spacing: 0px;">
+            <a class="u-button-style u-custom-color u-custom-left-right-menu-spacing u-custom-padding-bottom u-custom-text-active-color u-custom-text-color u-custom-text-hover-color u-custom-top-bottom-menu-spacing u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="#">
+              <svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#menu-hamburger"></use></svg>
+              <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><symbol id="menu-hamburger" viewBox="0 0 16 16" style="width: 16px; height: 16px;"><rect y="1" width="16" height="2"></rect><rect y="7" width="16" height="2"></rect><rect y="13" width="16" height="2"></rect>
+</symbol>
+</defs></svg>
+            </a>
+          </div>
+          <div class="u-custom-menu u-nav-container">
+            <ul class="u-custom-font u-font-lobster u-nav u-unstyled u-nav-1"><li class="u-nav-item"><a class="u-black u-button-style u-nav-link u-text-active-palette-2-base u-text-hover-palette-4-light-1 u-text-palette-2-base" href="/home" style="padding: 14px 20px;">Главная</a>
+</li><li class="u-nav-item"><a class="u-black u-button-style u-nav-link u-text-active-palette-2-base u-text-hover-palette-4-light-1 u-text-palette-2-base" href="/statistika" style="padding: 14px 20px;">Статистика</a>
+</li></ul>
+          </div>
+          <div class="u-custom-menu u-nav-container-collapse">
+            <div class="u-black u-container-style u-inner-container-layout u-opacity u-opacity-95 u-sidenav">
+              <div class="u-inner-container-layout u-sidenav-overflow">
+                <div class="u-menu-close"></div>
+                <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-2"><li class="u-nav-item"><a class="u-button-style u-nav-link" href="/home" style="padding: 14px 20px;">Главная</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="/statistika" style="padding: 14px 20px;">Статистика</a>
+</li></ul>
+              </div>
+            </div>
+            <div class="u-black u-menu-overlay u-opacity u-opacity-70"></div>
+          </div>
+        </nav>
+        <div class="u-image u-image-circle u-image-1" alt="" data-image-width="400" data-image-height="265"></div>
+      </div></header>
+    <section class="u-clearfix u-gradient u-section-1" id="sec-3e17">
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <p class="u-align-center u-custom-font u-font-oswald u-text u-text-white u-text-1" data-animation-name="" data-animation-duration="0" data-animation-delay="0" data-animation-direction="">Лучший снайпер</p>
+        <p class="u-align-center u-custom-font u-font-oswald u-text u-text-white u-text-2" data-animation-name="" data-animation-duration="0" data-animation-delay="0" data-animation-direction="">Лучший подборщик</p>
+        <p class="u-align-center u-custom-font u-font-oswald u-text u-text-default u-text-white u-text-3" data-animation-name="" data-animation-duration="0" data-animation-delay="0" data-animation-direction="">Лучший ассистент</p>
+        <p class="u-align-center u-custom-font u-font-oswald u-text u-text-palette-3-light-1 u-text-4">ТУРНИРНАЯ ТАБЛИЦА</p>
+        <img class="u-image u-image-circle u-image-1" src="{{best_rebounder.name.photo.url}}" alt="" data-image-width="400" data-image-height="265">
+        <img class="u-image u-image-circle u-image-2" src="{{best_scorer.name.photo.url}}" alt="" data-image-width="400" data-image-height="265">
+        <img class="u-image u-image-circle u-image-3" src="{{best_assister.name.photo.url}}" alt="" data-image-width="400" data-image-height="265">
+        <div class="u-table u-table-responsive u-table-1">
+          <table class="u-table-entity">
+            <colgroup>
+              <col width="7.9%">
+              <col width="36.8%">
+              <col width="20.4%">
+              <col width="34.9%">
+            </colgroup>
+            <thead class="u-palette-4-light-1 u-table-header u-table-header-1">
+              <tr style="height: 46px;">
+                <th class="u-border-5 u-border-no-left u-border-no-right u-border-palette-2-base u-table-cell"></th>
+                <th class="u-align-center u-border-5 u-border-no-left u-border-no-right u-border-palette-2-base u-custom-font u-font-oswald u-table-cell u-table-cell-2">команда<span style="font-weight: 700;">
+                    <span style="font-style: italic;">
+                      <span style="font-style: normal;">
+                        <span style="font-style: italic;"></span>
+                      </span>
+                    </span>
+                  </span>
+                </th>
+                <th class="u-align-center u-border-5 u-border-no-left u-border-no-right u-border-palette-2-base u-custom-font u-font-oswald u-table-cell u-table-cell-3">w</th>
+                <th class="u-align-center u-border-5 u-border-no-left u-border-no-right u-border-palette-2-base u-custom-font u-font-oswald u-table-cell u-table-cell-4">L</th>
+              </tr>
+            </thead>
+            <tbody class="u-align-center u-custom-font u-font-oswald u-table-body u-text-white u-table-body-1">
+              <tr style="height: 44px;">
+                <td class="u-border-2 u-border-no-left u-border-no-right u-border-white u-table-cell">1</td>
+                <td class="u-border-2 u-border-no-left u-border-no-right u-border-white u-table-cell">ЛОКОМОТИВ</td>
+                <td class="u-border-2 u-border-no-left u-border-no-right u-border-white u-table-cell">3</td>
+                <td class="u-border-2 u-border-no-left u-border-no-right u-border-white u-table-cell">0</td>
+              </tr>
+              <tr style="height: 42px;">
+                <td class="u-border-2 u-border-no-left u-border-no-right u-border-white u-table-cell">2</td>
+                <td class="u-border-2 u-border-no-left u-border-no-right u-border-white u-table-cell">ОЙЛЕРЗ</td>
+                <td class="u-border-2 u-border-no-left u-border-no-right u-border-white u-table-cell">1</td>
+                <td class="u-border-2 u-border-no-left u-border-no-right u-border-white u-table-cell">1</td>
+              </tr>
+              <tr style="height: 42px;">
+                <td class="u-border-2 u-border-no-left u-border-no-right u-border-white u-table-cell">3</td>
+                <td class="u-border-2 u-border-no-left u-border-no-right u-border-white u-table-cell">МЕДВЕДИ</td>
+                <td class="u-border-2 u-border-no-left u-border-no-right u-border-white u-table-cell">0</td>
+                <td class="u-border-2 u-border-no-left u-border-no-right u-border-white u-table-cell">3</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p class="u-align-left u-custom-font u-font-oswald u-text u-text-default u-text-palette-2-base u-text-5" data-animation-name="" data-animation-duration="0" data-animation-delay="0" data-animation-direction="">
+          <a class="u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-palette-1-base u-btn-1" href="{{best_assister.name.get_absolute_url}}">{{best_assister.name.rus_last_name}}</a>
+        </p>
+        <img class="u-image u-image-circle u-image-4" src="{{best_assister.name.team.image.urll}}" alt="" data-image-width="400" data-image-height="265">
+        <p class="u-align-center u-custom-font u-font-oswald u-text u-text-white u-text-6" data-animation-name="" data-animation-duration="0" data-animation-delay="0" data-animation-direction="">{{best_assister.ast}}</p>
+        <p class="u-align-left u-custom-font u-font-oswald u-text u-text-default u-text-palette-2-base u-text-7" data-animation-name="" data-animation-duration="0" data-animation-delay="0" data-animation-direction="">
+          <a class="u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-palette-1-base u-btn-2" href="{{best_scorer.name.get_absolute_url}}">{{best_scorer.name.rus_last_name}}</a>
+        </p>
+        <img class="u-image u-image-circle u-image-5" src="{{best_scorer.name.team.image.url}}" alt="" data-image-width="400" data-image-height="265">
+        <p class="u-align-center u-custom-font u-font-oswald u-text u-text-white u-text-8" data-animation-name="" data-animation-duration="0" data-animation-delay="0" data-animation-direction="">{{best_scorer.pts}}</p>
+        <p class="u-align-left u-custom-font u-font-oswald u-text u-text-default u-text-palette-2-base u-text-9" data-animation-name="" data-animation-duration="0" data-animation-delay="0" data-animation-direction="">
+          <a class="u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-palette-1-base u-btn-3" href="{{best_rebounder.name.get_absolute_url}}">{{best_rebounder.name.rus_last_name}}</a>
+        </p>
+        <img class="u-image u-image-circle u-image-6" src="{{best_rebounder.name.team.image.url}}" alt="" data-image-width="400" data-image-height="265">
+        <p class="u-align-center u-custom-font u-font-oswald u-text u-text-white u-text-10" data-animation-name="" data-animation-duration="0" data-animation-delay="0" data-animation-direction="">{{best_rebounder.reb}}</p>
+        <p class="u-align-center u-custom-font u-font-oswald u-text u-text-white u-text-11" data-animation-name="" data-animation-duration="0" data-animation-delay="0" data-animation-direction="">Лучший Перехватчик</p>
+        <img class="u-image u-image-circle u-image-7" src="{{best_stealer.name.photo.url}}" alt="" data-image-width="400" data-image-height="265">
+        <p class="u-align-center u-custom-font u-font-oswald u-text u-text-white u-text-12" data-animation-name="" data-animation-duration="0" data-animation-delay="0" data-animation-direction="">Лучший Блокшотер</p>
+        <img class="u-image u-image-circle u-image-8" src="{{best_blockshoter.name.photo.url}}" alt="" data-image-width="400" data-image-height="265">
+        <p class="u-align-center u-custom-font u-font-oswald u-text u-text-palette-3-light-1 u-text-13" data-animation-name="" data-animation-duration="0" data-animation-delay="0" data-animation-direction="">Следующий матч</p>
+        <div class="u-align-center u-border-2 u-border-grey-75 u-container-style u-group u-palette-4-light-1 u-radius-28 u-shape-round u-group-1" data-animation-name="" data-animation-duration="0" data-animation-direction="">
+          <div class="u-container-layout u-container-layout-1">
+            <p class="u-custom-font u-font-oswald u-text u-text-14">Локомотив</p>
+            <p class="u-custom-font u-font-oswald u-text u-text-15" data-animation-name="" data-animation-duration="0" data-animation-delay="0" data-animation-direction="">Медведи</p>
+            <p class="u-custom-font u-font-oswald u-text u-text-custom-color-1 u-text-16" data-animation-name="" data-animation-duration="0" data-animation-delay="0" data-animation-direction="">11.12.2021</p>
+          </div>
+        </div>
+        <p class="u-align-left u-custom-font u-font-oswald u-text u-text-default u-text-palette-2-base u-text-17" data-animation-name="" data-animation-duration="0" data-animation-delay="0" data-animation-direction="">
+          <a class="u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-palette-1-base u-btn-4" href="{{best_stealer.name.get_absolute_url}}">{{best_stealer.name.rus_last_name}}</a>
+        </p>
+        <img class="u-image u-image-circle u-image-9" src="{{best_stealer.name.team.image.url}}" alt="" data-image-width="400" data-image-height="265">
+        <p class="u-align-center u-custom-font u-font-oswald u-text u-text-white u-text-18" data-animation-name="" data-animation-duration="0" data-animation-delay="0" data-animation-direction="">{{best_stealer.stl}}</p>
+        <p class="u-align-left u-custom-font u-font-oswald u-text u-text-default u-text-palette-2-base u-text-19" data-animation-name="" data-animation-duration="0" data-animation-delay="0" data-animation-direction="">
+          <a class="u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-palette-1-base u-btn-5" href="{{best_blockshoter.name.get_absolute_url}}">{{best_blockshoter.name.rus_last_name}}</a>
+        </p>
+        <img class="u-image u-image-circle u-image-10" src="{{best_blockshoter.name.team.image.url}}" alt="" data-image-width="400" data-image-height="265">
+        <p class="u-align-center u-custom-font u-font-oswald u-text u-text-white u-text-20" data-animation-name="" data-animation-duration="0" data-animation-delay="0" data-animation-direction="">{{best_blockshoter.blk}}</p>
+      </div>
+    </section>
+    <section class="u-clearfix u-gradient u-section-2" id="sec-9e80">
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <p class="u-align-center u-custom-font u-font-oswald u-text u-text-black u-text-1" data-animation-name="" data-animation-duration="0" data-animation-delay="0" data-animation-direction="">Главный судья</p>
+        <div class="u-video u-video-contain u-video-1">
+          <div class="embed-responsive embed-responsive-1">
+     <iframe width="560" height="315" src="https://www.youtube.com/embed/UJet_YmtKsg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </div>
+        <img class="u-image u-image-circle u-image-1" src="/media/photos/2021/12/01/Mursalov.jpg" alt="" data-image-width="400" data-image-height="265">
+        <div class="u-video u-video-contain u-video-2">
+          <div class="embed-responsive embed-responsive-2">
+            <iframe width="1255" height="706" src="https://www.youtube.com/embed/yCMP_r-tpko" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </div>
+        <div class="u-video u-video-contain u-video-3">
+          <div class="embed-responsive embed-responsive-3">
+           <iframe width="560" height="315" src="https://www.youtube.com/embed/0ZQBG0STSlY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </div>
+        <p class="u-align-center u-custom-font u-font-oswald u-text u-text-black u-text-2" data-animation-name="" data-animation-duration="0" data-animation-delay="0" data-animation-direction="">Директор центра статистики</p>
+        <div class="u-video u-video-contain u-video-4">
+          <div class="embed-responsive embed-responsive-4">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/Fb2jvswBn54" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </div>
+        <div class="u-video u-video-contain u-video-5">
+          <div class="embed-responsive embed-responsive-5">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/Fb2jvswBn54" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </div>
+        <img class="u-image u-image-circle u-image-2" src="/media/photos/2021/12/01/Veryaskin.jpg" alt="" data-image-width="400" data-image-height="265">
+        <div class="u-video u-video-contain u-video-6">
+          <div class="embed-responsive embed-responsive-6">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/Fb2jvswBn54" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+
+  </body>
+</html>

@@ -1,0 +1,29 @@
+{% extends 'statistic/base.html' %}
+{% load static %}
+{% block content %}
+
+<link type="text/css" href="{% static 'basket/css/styles.css' %}" rel="stylesheet" />
+<table>
+ <tr>
+  <th colspan="5" align="left">ТОП-5 по Очкам</th>
+</tr>
+ {% for play in players %}
+ <td><img height="50" width="100" src="{% static 'basket/images/-1.jpg' %}"></td>
+ {% endfor %}
+ <tr></tr>
+ {% for play in players %}
+ <td>{{play.name}}</td>
+{% endfor %}
+ <tr></tr>
+
+ {% for play in players %}
+ {% for stat in play.stats1.all %}
+ <td align="center">{{stat.pts}}</td>
+
+{% endfor %}
+ {% endfor %}
+</table>
+
+
+
+{% endblock %}
